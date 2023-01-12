@@ -60,3 +60,39 @@
 #theme-toggle:focus {
     outline: 0;
 }
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 260px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -120px;
+  background-color: var(--theme);
+  color: var(--secondary);
+  text-align: center;
+  padding: 2px;
+  border-radius: 6px;
+  border: medium solid;
+  border-color: var(--secondary);
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+
+  white-space: normal !important;
+  display: block;
+  font-size: 11px;
+
+  font-family: NanumSquareRound;
+  line-height: 150%;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
