@@ -112,10 +112,11 @@
 .post-content ol,
 .post-content ul {
     padding-inline-start: 20px;
+    margin-bottom: 0px !important;
 }
 
 .post-content li {
-    margin-top: 5px;
+    margin-top: 0px;
 }
 
 .post-content li p {
