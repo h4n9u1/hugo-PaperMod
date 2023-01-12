@@ -24,7 +24,8 @@
 
 .logo a {
     font-size: 24px;
-    font-weight: 700;
+    font-family: NanumSquareNeo;
+    font-weight: 900;
 }
 
 .logo a img, .logo a svg {
@@ -62,11 +63,13 @@ body:not(.dark) #sun {
 }
 
 #menu a {
+    font-family: NanumSquareNeo;
+    font-weight: bold;
     font-size: 16px;
 }
 
 #menu .active {
-    font-weight: 500;
+    font-weight: 900;
     border-bottom: 2px solid currentColor;
 }
 

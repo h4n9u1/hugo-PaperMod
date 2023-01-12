@@ -10,6 +10,8 @@
     padding: calc((var(--footer-height) - var(--gap)) / 2) var(--gap);
     text-align: center;
     line-height: 24px;
+    font-family: NanumSquareNeo;
+    font-weight: 900;
 }
 
 .footer span {
