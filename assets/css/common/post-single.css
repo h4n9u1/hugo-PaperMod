@@ -6,19 +6,22 @@
 .post-title {
     margin-bottom: 2px;
     font-size: 40px;
+    font-family: NanumSquareNeo;
+    font-weight: 900;
 }
 
 .post-description {
     margin-top: 10px;
     margin-bottom: 5px;
+    font-family: NanumSquareNeo;
 }
 
 .post-meta,
 .breadcrumbs {
     color: var(--secondary);
     font-size: 14px;
-    display: flex;
     flex-wrap: wrap;
+    font-family: NanumSquareRound;
 }
 
 .post-meta .i18n_list li {
@@ -35,6 +38,17 @@
 .post-content {
     color: var(--content);
 }
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+    font-family: NanumSquareNeo;
+    font-weight: 900;
+}
+
 
 .post-content h3,
 .post-content h4,
@@ -198,6 +212,7 @@
     line-height: 1.5;
     background: var(--code-bg);
     border-radius: 2px;
+    font-family: JetBrainsMono, D2Coding;
 }
 
 .post-content pre code {
@@ -269,6 +284,7 @@
 .toc details summary {
     cursor: zoom-in;
     margin-inline-start: 20px;
+
 }
 
 .toc details[open] summary {
@@ -277,12 +293,15 @@
 
 .toc .details {
     display: inline;
-    font-weight: 500;
+    font-family: NanumSquareNeo;
+    font-weight: 900 !important;
 }
 
 .toc .inner {
     margin: 0 20px;
     padding: 10px 20px;
+    font-family: NanumSquareNeo;
+    font-weight: 900 !important;
 }
 
 .toc li ul {
